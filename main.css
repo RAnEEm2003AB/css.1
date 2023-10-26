@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.clr{
+    clear: both;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+/*navbar*/
+.navbar {
+background-color: black;
+margin: auto;
+}
+.logo{
+    float: left;
+    margin-top: 5px;
+   
+
+}
+.list{
+    float: right;
+    margin-top: 10px;
+    
+}
+.logo img{
+    width: 200px;
+}
+.list ul{
+    
+    list-style-type:none;
+    
+}
+.list ul li{
+    
+    display: inline-block;
+    margin-left: 40px;
+    text-transform: uppercase;
+}
+.list a{
+color: white;
+}
+
+/*part2*/
+.test{
+    text-align: center;
+    background-color: antiquewhite;
+}
+.portfolio-img{
+
+    float: left;
+    width: 33.33%;
+    padding-left: 20px;
+    padding-top:20px;
+   
+}
+.portfolio-img img{
+    display: block;/*its not important becouse i want to make a space btw pictures*/
+
+}
+.container h3{
+   
+   color: gray;
+   text-decoration-line: overline;
+}
+.container h2{
+    line-height:50px;
+    text-transform: uppercase;
+    
+}
+
